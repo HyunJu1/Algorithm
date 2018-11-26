@@ -1,0 +1,7 @@
+package 알고리즘_이진Tree;
+
+public class TreeNode {
+	String key;
+	TreeNode left;
+	TreeNode right;
+}

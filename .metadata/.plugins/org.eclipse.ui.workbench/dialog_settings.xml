@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="627" key="DIALOG_X_ORIGIN"/>
+		<item value="51" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="943" key="dialogHeight"/>
+		<item value="1162" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="3"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
+			<item value="org.eclipse.wst.xml.ui.contentmodel.view"/>
+			<item value="org.eclipse.debug.ui.DebugView"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textArray">
+			<item value="co"/>
+			<item value="console"/>
+			<item value="c"/>
+			<item value="pro"/>
+			<item value="x"/>
+			<item value="deb"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

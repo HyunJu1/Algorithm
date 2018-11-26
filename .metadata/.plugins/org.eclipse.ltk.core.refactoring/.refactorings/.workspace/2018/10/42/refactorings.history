@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;알고리즘_이중Tree&apos; to &apos;알고리즘_이진Tree&apos;" description="Rename resource &apos;알고리즘_이중Tree&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/알고리즘_이중Tree" name="알고리즘_이진Tree" stamp="1539518571797" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;알고리즘_이진Tree&apos; to &apos;알고리즘_이진탐색Tree&apos;" description="Rename resource &apos;알고리즘_이진Tree&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/알고리즘_이진Tree" name="알고리즘_이진탐색Tree" stamp="1539518644127" updateReferences="true"/>
+</session>

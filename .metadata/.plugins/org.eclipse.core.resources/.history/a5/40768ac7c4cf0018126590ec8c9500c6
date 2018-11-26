@@ -1,0 +1,50 @@
+package 알고리즘_이진Tree;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class BinarySearchTree {
+	int cntArr[];
+	int key;
+	BinarySearchTree left;
+	BinarySearchTree right;
+	BinarySearchTree rootNode;
+	int cnt = -1;
+
+	public BinarySearchTree insertKey(BinarySearchTree T, int x) {
+		cnt++;
+		if (T == null) {
+			BinarySearchTree newNode = new BinarySearchTree();
+			newNode.key = x;
+			return newNode;
+		} else if (x < T.key) {
+			T.left = insertKey(T.left, x);
+			return T;
+		} else if (x > T.key) {
+			T.right = insertKey(T.right, x);
+			return T;
+		} else {
+			return T;
+		}
+	}
+
+	public void insert(int x) {
+		rootNode = insertKey(rootNode, x);
+
+		System.out.println("cnt:" + cnt);
+	}
+
+	public static void main(String args[]) throws NumberFormatException, IOException {
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BinarySearchTree T = new BinarySearchTree();
+
+		int N = Integer.parseInt(br.readLine().trim());
+
+		for (int i = 0; i < N; i++) {
+			T.insert(Integer.parseInt(br.readLine().trim()));
+		}
+
+	}
+}
