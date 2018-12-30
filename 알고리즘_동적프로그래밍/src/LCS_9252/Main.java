@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
+//LCS1_9252
+
 public class Main {
 
 	private static String x, y;

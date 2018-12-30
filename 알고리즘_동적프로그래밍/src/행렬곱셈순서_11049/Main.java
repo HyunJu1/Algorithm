@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
+//Çà·Ä°ö¼À¼ø¼­_11049
 public class Main {
 	public  int min(int m1, int m2) {
 		if (m1 == 0)
