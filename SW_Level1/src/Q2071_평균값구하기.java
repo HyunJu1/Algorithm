@@ -1,13 +1,12 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class Q2071_평균값구하기 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		Scanner sc = new Scanner(System.in);
+
 		int x = Integer.parseInt(br.readLine());
 
 		String arr[][] = new String[x][10];
