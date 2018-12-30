@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Q2072_홀수만더하기 {
-
-	public static void main(String[] args) throws NumberFormatException {
+	public static void main(String[] args) {
+		
+		
 
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
