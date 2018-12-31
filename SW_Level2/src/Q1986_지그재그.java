@@ -6,13 +6,27 @@ public class Q1986_지그재그 {
 
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
-		String arr[] = new String[x];
+		int arr[] = new int[x];
 
 		for (int i = 0; i < x; i++) {
-			arr[i] = sc.next();
+			arr[i] = sc.nextInt();
 
 		}
 		
+		for(int i=0; i<x; i++) {
+			int sum=0;
+			
+			for (int j=1; j<=arr[i]; j++) {
+				if(j%2==1) {
+					sum+=j;
+				}
+				else {
+					sum-=j;
+				}
+			}
+			
+			System.out.println("#" + (i + 1) + " "+sum);
+		}
 	}
 
 }
