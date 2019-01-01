@@ -1,3 +1,4 @@
+package Day2;
 import java.util.Scanner;
 
 public class Q1284_수도요금 {

@@ -1,3 +1,4 @@
+package Day2;
 import java.util.Base64;
 import java.util.Base64.Decoder;
 import java.util.Scanner;

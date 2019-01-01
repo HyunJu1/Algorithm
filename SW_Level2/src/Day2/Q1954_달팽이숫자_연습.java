@@ -1,3 +1,4 @@
+package Day2;
 import java.util.Scanner;
 
 public class Q1954_달팽이숫자_연습 {

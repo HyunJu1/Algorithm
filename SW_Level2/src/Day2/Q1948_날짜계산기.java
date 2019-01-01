@@ -1,3 +1,4 @@
+package Day2;
 import java.util.Scanner;
 
 public class Q1948_날짜계산기 {

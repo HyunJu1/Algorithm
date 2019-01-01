@@ -1,3 +1,4 @@
+package Day2;
 import java.util.Scanner;
 
 public class Q1989_회문검사 {
