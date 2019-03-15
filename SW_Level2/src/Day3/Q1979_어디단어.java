@@ -5,7 +5,7 @@ public class Q1979_어디단어 {
 
 	//for문에서 break문 쓰는거 조심하자!!!!!
 	
-	public static void main(String[] args) {
+	
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
 
