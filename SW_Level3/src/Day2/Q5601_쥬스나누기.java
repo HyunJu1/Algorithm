@@ -23,8 +23,8 @@ public class Q5601_쥬스나누기 {
 			int input = sc.nextInt();
 
 			String result = " 1/" + Integer.toString(input);
-			String result2="";
-			for (int j =0; j < input; j++) {
+			String result2 = "";
+			for (int j = 0; j < input; j++) {
 				result2 += result;
 
 			}
